@@ -6,8 +6,6 @@ import (
 	"os"
 )
 
-// ToUpper converts a lowercase Latin character into an uppercase character.
-// If the character is not a lowercase letter of the Latin alphabet, the original character is returned.
 func ToUpper(c byte) byte {
 	// Check if the character is a lowercase letter of the Latin alphabet
 	if c >= 'a' && c <= 'z' {
